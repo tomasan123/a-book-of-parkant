@@ -9,3 +9,22 @@
 body {
     font-family: 'Parkant', sans-serif;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 52px;
+  text-align: center;
+  flex: auto;
+}
+
+.contents {
+  flex: auto;
+}
+
+p {
+  font-size: 20px;
+}
